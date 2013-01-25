@@ -120,6 +120,14 @@ Ext.define('Ext.ux.calendar.editor.DetailEditor', {
 							height : 70,
 							anchor : '100%'
 						});
+	    this.fileUploadBasic = this.fileUploadBasic
+		|| Ext.create('Ext.form.field.File', {
+		    // renderTo: 'fi-basic',
+		    width: 400,
+		    hideLabel: true
+		});
+
+
 		var ctplstr = this.ehandler.cTplStr;
 		this.calendarField = Ext.create('Ext.form.field.ComboBox', {
 					fieldLabel : lan['calendarField.label'],
@@ -358,7 +366,9 @@ Ext.define('Ext.ux.calendar.editor.DetailEditor', {
 							autoHeight : true,
 							labelWidth : 80,
 							items : [this.timepanel, this.subjectField,
-									this.contentField, this.calendarField,
+									this.contentField, 
+								 this.fileUploadBasic,
+								 this.calendarField,
 									this.alertCB, this.alertContainer,
 									this.lockCB]
 						});
