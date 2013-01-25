@@ -131,11 +131,19 @@ Ext.define('Ext.ux.calendar.DataSource', {
                         icon: Ext.MessageBox.ERROR
                     });
                 } else {
-                    sucessFn.call(scope, backObj);
+		    Ext.ux.window.Notification({title: 'Notification', html: 'Mise à jour réussie!',
+						iconCls: 'ux-notification-icon-information'});
+                    // sucessFn.call(scope, backObj);
                 }
             },
             failure:function(response, options){
-
+                var backObj = Ext.decode(response.responseText);
+                    Ext.Msg.show({
+                        title:'Error',
+                        msg: backObj.errorInfo,
+                        buttons: Ext.Msg.OK,
+                        icon: Ext.MessageBox.ERROR
+                    });
             },
             scope:scope || this
         });
@@ -841,8 +849,10 @@ Ext.define('Ext.ux.calendar.DataSource', {
      * @param {obj} scope: the scope of sucessFn function
      */
     initialLoad:function(userId, sucessFn, scope){
+	// alert(Ext.ux.calendar.CONST.initialLoadURL + " POST METHOD");
     	Ext.Ajax.request({
             url:Ext.ux.calendar.CONST.initialLoadURL,
+	    method: 'POST',
             /*
              * pass the userId to server
              */
@@ -850,6 +860,8 @@ Ext.define('Ext.ux.calendar.DataSource', {
                 'userId':userId
             },
             success:function(response, options){            	
+		// alert("success");
+		// alert(response.responseText);
                  var backObj = Ext.decode(response.responseText);
                  
                  /*

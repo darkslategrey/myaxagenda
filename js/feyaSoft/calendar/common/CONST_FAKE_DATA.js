@@ -50,43 +50,45 @@ Ext.ux.calendar.CONST = {
     /*
      * define the some url here for datasource
      */
-    searchURL:'calendarEvent/search',
+    searchURL:'calendarEvent/search.php',
 
-    showAllCalendarURL:'calendarType/showAll',
+    showAllCalendarURL:'fakeData/listEvent.php',
+    // 'calendarType/showAll.php',
 
-    showOnlyCalendarURL:'calendarType/showOnly',
+    showOnlyCalendarURL:'calendarType/showOnly.php',
 
-    createUpdateCalendarURL:'calendarType/createUpdate',
+    createUpdateCalendarURL:'calendarType/createUpdate.php',
 
-    deleteEventsByCalendarURL:'calendarEvent/deleteByCalendar',
+    deleteEventsByCalendarURL:'calendarEvent/deleteByCalendar.php',
 
-    deleteCalendarURL:'calendarType/delete',
+    deleteCalendarURL:'calendarType/delete.php',
 
-    loadCalendarURL:'calendarType/list',
+    loadCalendarURL:'calendarType/list.php',
 
-    loadEventURL:'fakeData/listEvent.json',
+    loadEventURL:'fakeData/listEvent.php',
+    // loadEventURL:'fakeData/listEvent.json',
 
-    loadRepeatEventURL:'calendarEvent/loadRepeatEvents',
+    loadRepeatEventURL:'calendarEvent/loadRepeatEvents.php',
 
-    createEventURL:'calendarEvent/createEditEvent',
+    createEventURL:'calendarEvent/createEditEvent.php',
 
-    updateEventURL:'calendarEvent/createEditEvent',
+    updateEventURL:'calendarEvent/createEditEvent.php',
 
-    deleteEventURL:'calendarEvent/deleteEvent',
+    deleteEventURL:'calendarEvent/deleteEvent.php',
 
-    deleteRepeatEventURL:'calendarEvent/deleteRepeatEvent',
+    deleteRepeatEventURL:'calendarEvent/deleteRepeatEvent.php',
 
-    changeDayURL:'calendarEvent/updateDayEvents',
+    changeDayURL:'calendarEvent/updateDayEvents.php',
 
-    deleteDayURL:'calendarEvent/deleteDayEvents',
+    deleteDayURL:'calendarEvent/deleteDayEvents.php',
 
-    loadSettingURL:'calendarSetting/list',
+    loadSettingURL:'calendarSetting/list.php',
 
-    updateSettingURL:'calendarSetting/update',
+    updateSettingURL:'calendarSetting/update.php',
 
-    createUpdateRepeatEventURL:'calendarEvent/createUpdateRepeatEvent',
+    createUpdateRepeatEventURL:'calendarEvent/createUpdateRepeatEvent.php.php',
 
     initialLoadURL:'fakeData/initLoad.json',
 
-    listUserURL:'calendar/queryUser'
+    listUserURL:'calendar/queryUser.php'
 };

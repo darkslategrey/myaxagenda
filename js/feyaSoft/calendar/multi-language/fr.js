@@ -29,11 +29,11 @@ Ext.ux.calendar.Language = {
     // please help to transfer words after :. Thanks
     'CalendarWin':{
         'title':'CubeDrive MyCalendar 2.5.3',
-        'loadMask.msg':'S\'il vous pla�t patienter...'
+        'loadMask.msg':'S\'il vous plaît patienter...'
     },
 
     'MainPanel':{
-        'loadMask.msg':'S\'il vous pla�t patienter...'
+        'loadMask.msg':'S\'il vous plaît patienter...'
     },
 
     'CalendarContainer':{
@@ -45,16 +45,16 @@ Ext.ux.calendar.Language = {
         'weekMenu.onlyWeek.text':'Seulement la semaine',
         'monthMenu.showAll.text':'Voir tout',
         'monthMenu.onlyWeek.text':'Seulement la semaine',
-        'moreMenu.setting.text':'Param�tre',
+        'moreMenu.setting.text':'Paramètre',
         'moreMenu.about.text':'About CubeDrive MyCalendar',
         'moreBtn.text':'Plus',
         'searchCriteria.text':'Recherche',        
         'moreMenu.showAlert.text':'Activer fonction d\'alerte',
-        'moreMenu.language.text':'R�glage de la Langue'
+        'moreMenu.language.text':'Règlage de la Langue'
     },
 
     'WestPanel':{
-        'myCalendarPanel.title':'My Calendar',
+        'myCalendarPanel.title':'Ax Agenda',
         'myShowAllBtn.text':'Voir tout',
         'myAddBtn.text':'Nouveau'
     },
@@ -66,60 +66,60 @@ Ext.ux.calendar.Language = {
         'editItem.text':'Modification du calendrier',
         'deleteItem.text':'Supprimer l\'agenda',
         'clearItem.text':'Vider le calendrier',
-        'wholeDay':'Journ�e enti�re',
-        'untitled':'Untitled',
-        'unlockItem.text':'Unlock',
-        'lockItem.text':'Lock',
-        'editEvent.title':'Modifier un �v�nement',
-        'deleteEvent.title':'Supprimer l\'�v�nement',
-        'more':'More',
-        'deleteRepeatPopup.title':'Confirm',
-        'deleteRepeatPopup.msg':'Click "Yes" to delete all this repeat events, or click "No" to only delete the current event?',
-        'updateRepeatPopup.title':'Confirm',
-        'updateRepeatPopup.msg':'Click "Yes" to update for all this repeat events, or click "No" to only update for the current event?'
+        'wholeDay':'Journée entière',
+        'untitled':'Sans tître',
+        'unlockItem.text':'Vérouiller',
+        'lockItem.text':'Dévérouiller',
+        'editEvent.title':'Modifier un évènement',
+        'deleteEvent.title':'Supprimer l\'évènement',
+        'more':'Plus',
+        'deleteRepeatPopup.title':'Confirmation',
+        'deleteRepeatPopup.msg':'Cliquez "Oui" pour supprimer tous les évènements récurrants, ou cliquez "Non" pour ne supprimer que cet évènement?',
+        'updateRepeatPopup.title':'Confirmation',
+        'updateRepeatPopup.msg':'Cliquez "Oui" pour mettre à jour tous les évènements récurrants, ou cliquez "Non" pour ne mettre à jour que cet évènement?'
     },
 
     'Editor':{
         'startDayField.label':'Heure',
-        'wholeField.label':'Journ�e enti�re',
+        'wholeField.label':'Journée entière',
         'subjectField.label':'Sujet',
         'contentField.label':'Contenu',
         'calendarField.label':'Calendrier',
-        'alertCB.label':'Alerte lorsque activ�',
-        'lockCB.label':'Locked',
+        'alertCB.label':'Alerte lorsque activé',
+        'lockCB.label':'Vérouillé',
         'deleteBtn.text':'Supprimer',
         'saveBtn.text':'Sauver',
         'cancelBtn.text':'Annuler',
-        'new.title':'New Event',
-        'edit.title':'Modifier un �v�nement',
-        'repeatTypeField.label':'Repeat Type',
-        'repeatIntervalField.label':'Recur every ',
-        'intervalUnitLabel.day.text':' Day(s) ',
-        'intervalUnitLabel.week.text':' Week(s) ',
-        'intervalUnitLabel.month.text':' Month(s) ',
-        'intervalUnitLabel.year.text':' Year(s) ',
-        'detailSetting':'Modify Detail...',
-        'returnBtn.text':'Back',
-        'startAndEnd':'Start and End',
-        'repeatStartField.label':'Start',
-        'repeatNoEndRG.label':'No end date',
-        'repeatEndTimeRG.label':'End after',
-        'repeatEndDateRG.label':'End by',
+        'new.title':'Nouvel évènement',
+        'edit.title':'Modifier un évènement',
+        'repeatTypeField.label':'Récurrence',
+        'repeatIntervalField.label':'Tous les jours',
+        'intervalUnitLabel.day.text':' Jour(s) ',
+        'intervalUnitLabel.week.text':' Semaine(s) ',
+        'intervalUnitLabel.month.text':' Mois ',
+        'intervalUnitLabel.year.text':' Année(s) ',
+        'detailSetting':'Editer les détails ...',
+        'returnBtn.text':'Retour',
+        'startAndEnd':'Début et fin',
+        'repeatStartField.label':'Début',
+        'repeatNoEndRG.label':'Pas de date de fin',
+        'repeatEndTimeRG.label':'Finit après',
+        'repeatEndDateRG.label':'Finit par',
         'repeatEndTimeUnit':'occurrence(s)',
-        'weekCheckGroup.label':'Repeat Day',
-        'monthRadioGroup.label':'Repeat By',
+        'weekCheckGroup.label':'Toute les semaines',
+        'monthRadioGroup.label':'Répéter par',
         'repeatByDate':'Date',
-        'repeatByDay':'Day',
-        'alertLabel':'Reminder Setting',
-        'alertEarly.label':'Early',
-        'newAlertBtn.text':'New',
-        'deleteAlertBtn.label':'Remove',
-        'emailAlertEarlyInvalid':'The early time of Email Alert should be larger than 30 minutes.',
-        'popupAlertEarlyInvalid':'The early time of Popup Alert should be less than 24 hours.',
-        'repeatIntervalInvalid':'This value should be a positive integer!',
-        'repeatBeginDayInvalid':'The repeat start date should not be later than repeat end date',
-        'repeatEndDayInvalid':'The repeat end date should not be earlier than repeat start date',
-        'repeatTimeInvalid':'This value should be a positive integer!'
+        'repeatByDay':'Jour',
+        'alertLabel':'Configuration des rappels',
+        'alertEarly.label':'Avant',
+        'newAlertBtn.text':'Nouvelle alerte',
+        'deleteAlertBtn.label':'Supprimer alerte',
+        'emailAlertEarlyInvalid':'L\'alerte par couriel doît précéder l\'évènement d\'au moins 30 minutes.',
+        'popupAlertEarlyInvalid':'L\'alerte par fenêtre surgissante doît précéder de moins de 24 heures le début de l\'évènement.',
+        'repeatIntervalInvalid':'Cette valeur doît être un entier positif !',
+        'repeatBeginDayInvalid':'La date de début doît être antèrieure à la date de fin',
+        'repeatEndDayInvalid':'La date de fin doît être postèrieure à la date de début',
+        'repeatTimeInvalid':'Cette valeur doît être un entier positif !',
     },
     
     'CalendarEditor':{
@@ -133,73 +133,73 @@ Ext.ux.calendar.Language = {
     },
     
     'ExpirePopup':{
-        'hideCB.label':'Don\'t popup any more',
-        'title':'Alerted Events',
+        'hideCB.label':'Ne plus faire apparaître la fenêtre surgissante',
+        'title':'Alertes d\'évènements',
         'tpl.calendar':'Calendrier',
         'tpl.subject':'Sujet',
         'tpl.content':'Contenu',
         'tpl.leftTime':'Temps restant',
-        'hour':'Hour(s)',
+        'hour':'Heure(s)',
         'minute':'Minute(s)',
-        'untitled':'Untitled',
-        'noContent':'No Content'
+        'untitled':'Sans tître',
+        'noContent':'Pas de contenu'
     },
 
     'SettingPopup':{
-        'title':'feyaCalendar Setting',
+        'title':'Propriétés Ax Agenda',
         'hourFormatField.label':'Format de l\'heure',
-        'dayFormatField.label':'Day Format of DayView',
-        'weekFormatField.label':'Day Format of WeekView',
-        'monthFormatField.label':'Day Format of MonthView',
+        'dayFormatField.label':'Format vue jour',
+        'weekFormatField.label':'Format vue semaine',
+        'monthFormatField.label':'Format vue mois',
         'applyBtn.text':'Appliquer',
-        'resetBtn.text':'Reset',
+        'resetBtn.text':'Annuler',
         'closeBtn.text':'Fermer',
-        'fromtoFormatField.label':'FromTo Format',
+        'fromtoFormatField.label':'De à format',
         'scrollStartRowField.label':'Scroll Start Row',
         'languageField.label':'Langue',
         'generalForm.title':'General',
-        'dwViewForm.title':'DayView|WeekView',
-        'monthViewForm.title':'MonthView',
-        'createByDblClickField.label':'Create Event by Double click',
+        'dwViewForm.title':'Vue jour|Vue semaine',
+        'monthViewForm.title':'Vue mois',
+        'createByDblClickField.label':'Création d\'un évènement par double clique',
         'singleDayField.label':'Cross Day Event',
-        'weekStartDayField.label': 'Start Week Day',
-        'activeStartTimeField.label':'Active Start Time',
-        'activeEndTimeField.label':'Active End Time',
-        'hideInactiveTimeField.label':'Hide Inactive Time',
-        'readOnlyField.label':'Read Only',
-        'intervalField.label':'Interval Slot',
-        'startEndInvalid':'Active Start Time should be earlier than Active End Time!',
+        'weekStartDayField.label': 'Jour de début de semaine',
+        'activeStartTimeField.label':'Horaire de début d\'activité',
+        'activeEndTimeField.label':'Horaire de fin d\'activité',
+        'hideInactiveTimeField.label':'Caché les plages horaires innactives',
+        'readOnlyField.label':'Lecure seule',
+        'intervalField.label':'Interval',
+        'startEndInvalid':'Horaire de début doît être antèrieur à l\'horaire de fin',
         'formatInvalid':'Example: 09:00',
-        'initialViewField.label':'Initial View'
+        'initialViewField.label':'Vue initiale'
     },
 
     'ResultView':{
-        'cm.date':'',
-        'cm.calendar':'Calendar',
+        'cm.date':'Date',
+        'cm.calendar':'Agenda',
         'cm.time':'Heure',
-        'cm.subject':'Subject',
-        'cm.content':'Content',
+        'cm.subject':'Sujet',
+        'cm.content':'Contenu',
         'cm.expire':'Temps restant',
-        'groupBtn.group.text':'Group',
-        'groupBtn.unGroup.text':'Ungroup',
+        'groupBtn.group.text':'Grouper',
+        'groupBtn.unGroup.text':'Dégrouper',
         'returnBtn.text':'Retour',
-        'hour':'Hour(s)',
-        'noSubject':'(No Subject)',
-        'noContent':'(No Content)',
-        'loadMask.msg':'S\'il vous pla�t patienter...'
+        'hour':'Heure(s)',
+        'noSubject':'(Pas de sujet)',
+        'noContent':'(Pas de contenu)',
+        'loadMask.msg':'S\'il vous plaît patienter...'
     },
 
     'DayView':{
-        'loadMask.msg':'S\'il vous pla�t patienter...',
+        'loadMask.msg':'S\'il vous plaît patienter...',
         'addItem.text':'Nouvel événement',
         'events':'événement'
     },
 
     'MonthView':{
-        'loadMask.msg':'S\'il vous pla�t patienter...',
-        'overview':'Pr�sentation',
-        'showingEvents':'Showing Events',
-        'totalEvents':'Total des �v�nements',
+        'loadMask.msg':'S\'il vous plaît patienter...',
+        'overview':'Présentation',
+        'showingEvents':'Monter les évènements',
+        'totalEvents':'Total des évènements',
         'dayPre':'',
         'addItem.text':'Nouvel événement',
         'clearItem.text':'Propreté de l\'événement',
@@ -210,8 +210,8 @@ Ext.ux.calendar.Language = {
     },
 
     'Mask':{
-        '12Hours':'12 Hours',
-        '24Hours':'24 Hours',
+        '12Hours':'12 Heures',
+        '24Hours':'24 Heures',
         'ar': 'Arabic',
         'de': 'German',
         'en':'American English',
@@ -225,59 +225,59 @@ Ext.ux.calendar.Language = {
         'pt': 'Portuguese',
         'ru': 'Russian',
         'zh_CN':'简体中文',
-        'enable':'Enable',
-        'disable':'Disable',
+        'enable':'Activé',
+        'disable':'Désactivé',
         'minute':'Minutes',
-        'monday':'Monday',
-        'sunday':'Sunday',
+        'monday':'Lundi',
+        'sunday':'Dimanche',
         'permitData':[
-            [0, 'Read, Write and Share'],
-            [1, 'Read and Write'],
-            [2, 'Read only']
+            [0, 'Lecture, Ecrire and Partager'],
+            [1, 'Lecture and Ecrire'],
+            [2, 'Lecture seule']
         ],
         'alertType':[
-            ['popup', 'Popup Message'],
-            ['email', 'Email']
+            ['popup', 'Message surgissant'],
+            ['email', 'Couriel']
         ],
         'popupAlertUnit':[
             ['minute', 'Minute(s)'],
-            ['hour', 'Hour(s)']
+            ['hour', 'Heure(s)']
         ],
         'alertUnit':[
             ['minute', 'Minute(s)'],
-            ['hour', 'Hour(s)'],
-            ['day', 'Day(s)'],
-            ['wek', 'Week(s)']
+            ['hour', 'Heure(s)'],
+            ['day', 'Jour(s)'],
+            ['wek', 'Semaine(s)']
         ],
         'initialView':[
-            [0, 'Day View'],
-            [1, 'Week View'],
-            [2, 'Month View']
+            [0, 'Vue jour'],
+            [1, 'Vue semaine'],
+            [2, 'Vue mois']
         ]
     },
 
     repeatType:[
-        ['no', 'Not Repeat'],
-        ['day', 'Daily'],
-        ['week', 'Weekly'],
-        ['month', 'Monthly'],
-        ['year', 'Yearly']
+        ['no', 'Non répeété'],
+        ['day', 'Quotitien'],
+        ['week', 'Hebdomadaire'],
+        ['month', 'Mensuel'],
+        ['year', 'Annuel']
     ],
 
     getWeekDayInMonth:function(date){
         var d = Ext.Date.format(date,'d');
         var w = Math.floor(d/7)+1;
         var wd =Ext.Date.format(date,'l');
-        var str = 'the '+w;
-        if(1 == w){
-            str += 'st';
-        }else if(2 == w){
-            str += 'nd';
-        }else if(3 == w){
-            str += 'rd';
-        }else{
-            str += 'th';
-        }
+        var str = 'le '+w;
+        // if(1 == w){
+        //     str += '';
+        // }else if(2 == w){
+        //     str += 'nd';
+        // }else if(3 == w){
+        //     str += 'rd';
+        // }else{
+        //     str += 'th';
+        // }
         return str+' '+wd;
     },
 
@@ -285,27 +285,27 @@ Ext.ux.calendar.Language = {
         var str = '';
         if('day' == rtype){
             if(1 == intervalSlot){
-                str = 'Everyday';
+                str = 'Tous les jours';
             }else{
-                str = 'Every '+intervalSlot+' days';
+                str = 'Tous les '+intervalSlot+' jours';
             }
         }else if('week' == rtype){
             if(1 == intervalSlot){
-                str = 'Every week at ';
+                str = 'Toutes les semaines à ';
             }else{
-                str = 'Every '+intervalSlot+' weeks at ';
+                str = 'Toutes les '+intervalSlot+' semaines à ';
             }
         }else if('month' == rtype){
             if(1 == intervalSlot){
-                str = 'Every month at ';
+                str = 'Tous les mois à ';
             }else{
-                str = 'Every '+intervalSlot+' months at ';
+                str = 'Tous les '+intervalSlot+' mois à ';
             }
         }else if('year' == rtype){
             if(1 == intervalSlot){
-                str = 'Every year at ';
+                str = 'Tous les ans à ';
             }else{
-                str = 'Every '+intervalSlot+' years at ';
+                str = 'Tous les '+intervalSlot+' ans à ';
             }
         }
         return str;

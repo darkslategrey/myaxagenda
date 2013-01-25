@@ -31,7 +31,7 @@ Ext.define('Ext.ux.calendar.editor.DetailEditor', {
 				|| Ext.create('Ext.form.DateField', {
 							fieldLabel : lan['startDayField.label'],
 							value : new Date(),
-							format : 'Y-m-d',
+				    format : 'd-m-Y',
 							allowBlank : false,
 							flex : 2,
 							editable : false,
@@ -63,7 +63,7 @@ Ext.define('Ext.ux.calendar.editor.DetailEditor', {
 							labelStyle : 'text-align:center;',
 							fieldLabel : lan['endDayField.label'],
 							labelSeparator : '',
-							format : 'Y-m-d',
+				    format : 'd-m-Y',
 							value : new Date(),
 							allowBlank : false,
 							flex : 2,
