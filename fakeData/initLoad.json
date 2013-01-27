@@ -77,7 +77,7 @@
     {
       "shares": [
       ],
-      "id": "2",
+      "id": "1",
       "hide": false,
       "color": "red",
       "description": 'Regie Job Enfance',
@@ -89,7 +89,7 @@
     {
       "shares": [
       ],
-      "id": "3",
+      "id": "2",
       "hide": false,
       "color": "orange",
       "description": 'Regie Job Dependance',
@@ -101,7 +101,7 @@
     {
       "shares": [
       ],
-      "id": "4",
+      "id": "3",
       "hide": false,
       "color": "green",
       "description": 'Actions Job Enfance',
@@ -113,7 +113,7 @@
     {
       "shares": [
       ],
-      "id": "5",
+      "id": "4",
       "hide": false,
       "color": "purple",
       "description": 'Actions Job Dependance',

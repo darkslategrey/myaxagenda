@@ -903,6 +903,7 @@ Ext.extend(Ext.ux.calendar.EventHandler, Ext.util.Observable, {
      * For show/hide a calendar and all events belong to it
      */
     onViewFn:function(item){    	
+	alert('onViewFn');
         var menu = item.parentMenu;
         var cEl = menu.calendarEl;
         var calendar = cEl.calendar;
@@ -1645,6 +1646,7 @@ Ext.extend(Ext.ux.calendar.EventHandler, Ext.util.Observable, {
     },
 
     onCalendarElClickFn:function(e){
+	alert('onCalendarElClickFn');
         var sp = this.sp;
         var cEl = this.cEl;
         var calendar = cEl.calendar;

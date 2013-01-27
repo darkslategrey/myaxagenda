@@ -59,6 +59,7 @@ Ext.ux.calendar.CONST = {
 
     createUpdateCalendarURL:'calendarType/createUpdate.php',
 
+
     deleteEventsByCalendarURL:'calendarEvent/deleteByCalendar.php',
 
     deleteCalendarURL:'calendarType/delete.php',

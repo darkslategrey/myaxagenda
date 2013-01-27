@@ -123,6 +123,7 @@ Ext.define('Ext.ux.calendar.DataSource', {
                  * The back json string should have a param "success", when it equal "false" means fail to create/update in server side
                  */
                 var backObj = Ext.decode(response.responseText);
+		alert("success " + backObj.success);
                 if (backObj.success == 'false') {
                     Ext.Msg.show({
                         title:'Error',
@@ -133,7 +134,7 @@ Ext.define('Ext.ux.calendar.DataSource', {
                 } else {
 		    Ext.ux.window.Notification({title: 'Notification', html: 'Mise à jour réussie!',
 						iconCls: 'ux-notification-icon-information'});
-                    // sucessFn.call(scope, backObj);
+                    sucessFn.call(scope, backObj);
                 }
             },
             failure:function(response, options){
