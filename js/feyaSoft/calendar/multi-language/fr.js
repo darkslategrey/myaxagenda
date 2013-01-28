@@ -257,7 +257,7 @@ Ext.ux.calendar.Language = {
     },
 
     repeatType:[
-        ['no', 'Non répeété'],
+        ['no', 'Non répété'],
         ['day', 'Quotitien'],
         ['week', 'Hebdomadaire'],
         ['month', 'Mensuel'],

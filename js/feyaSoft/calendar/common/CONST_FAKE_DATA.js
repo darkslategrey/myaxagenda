@@ -87,7 +87,7 @@ Ext.ux.calendar.CONST = {
 
     updateSettingURL:'calendarSetting/update.php',
 
-    createUpdateRepeatEventURL:'calendarEvent/createUpdateRepeatEvent.php.php',
+    createUpdateRepeatEventURL:'calendarEvent/createUpdateRepeatEvent.php',
 
     initialLoadURL:'fakeData/initLoad.json',
 
