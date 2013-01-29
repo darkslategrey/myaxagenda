@@ -123,7 +123,7 @@ Ext.define('Ext.ux.calendar.DataSource', {
                  * The back json string should have a param "success", when it equal "false" means fail to create/update in server side
                  */
                 var backObj = Ext.decode(response.responseText);
-		alert("success " + backObj.success);
+		//alert("success " + backObj.success);
                 if (backObj.success == 'false') {
                     Ext.Msg.show({
                         title:'Error',

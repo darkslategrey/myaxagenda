@@ -60,12 +60,12 @@ Ext.ux.calendar.Language = {
     },
 
     'EventHandler':{
-        'showOnlyItem.text':'Voir ce que',
-        'viewItem.hide.text':'Masquer le calendrier',
-        'viewItem.show.text':'Afficher le calendrier',
-        'editItem.text':'Modification du calendrier',
+        'showOnlyItem.text':'N\'afficher que cet agenda',
+        'viewItem.hide.text':'Masquer cet agenda',
+        'viewItem.show.text':'Afficher le agenda',
+        'editItem.text':'Modification du agenda',
         'deleteItem.text':'Supprimer l\'agenda',
-        'clearItem.text':'Vider le calendrier',
+        'clearItem.text':'Vider le agenda',
         'wholeDay':'Journée entière',
         'untitled':'Sans tître',
         'unlockItem.text':'Vérouiller',
@@ -84,7 +84,7 @@ Ext.ux.calendar.Language = {
         'wholeField.label':'Journée entière',
         'subjectField.label':'Sujet',
         'contentField.label':'Contenu',
-        'calendarField.label':'Calendrier',
+        'calendarField.label':'Agenda',
         'alertCB.label':'Alerte lorsque activé',
         'lockCB.label':'Vérouillé',
         'deleteBtn.text':'Supprimer',
@@ -123,7 +123,7 @@ Ext.ux.calendar.Language = {
     },
     
     'CalendarEditor':{
-        'new.title':'Nouveau Calendrier',
+        'new.title':'Nouveau Agenda',
         'edit.title':'Modifier l\'agenda',
         'nameField.label':'Nom',
         'descriptionField.label':'Description',
@@ -135,7 +135,7 @@ Ext.ux.calendar.Language = {
     'ExpirePopup':{
         'hideCB.label':'Ne plus faire apparaître la fenêtre surgissante',
         'title':'Alertes d\'évènements',
-        'tpl.calendar':'Calendrier',
+        'tpl.calendar':'Agenda',
         'tpl.subject':'Sujet',
         'tpl.content':'Contenu',
         'tpl.leftTime':'Temps restant',

@@ -63,7 +63,7 @@ Ext.ux.calendar.Mask = {
     },
 
     'EventHandler':{
-        'showOnlyItem.text':'Ne montrer que cet item',
+        'showOnlyItem.text':'Ne montrer que cet agenda',
         'viewItem.hide.text':'Cacher l\'agenda',
         'viewItem.show.text':'Montrer l\'agenda',
         'editItem.text':'Editer l\'agenda',
@@ -88,7 +88,7 @@ Ext.ux.calendar.Mask = {
         'wholeField.label':'Journée entière',
         'subjectField.label':'Sujet',
         'contentField.label':'Contenu',
-        'calendarField.label':'Calendrier',
+        'calendarField.label':'Agenda',
         'alertCB.label':'Alerte lorsque activé',
         'lockCB.label':'Vérouillé',
         'deleteBtn.text':'Supprimer',
@@ -127,7 +127,7 @@ Ext.ux.calendar.Mask = {
     },
 
     'CalendarEditor':{
-        'new.title':'Nouveau Calendrier',
+        'new.title':'Nouvel Agenda',
         'edit.title':'Modifier l\'agenda',
         'nameField.label':'Nom',
         'descriptionField.label':'Description',
@@ -145,7 +145,7 @@ Ext.ux.calendar.Mask = {
     'ExpirePopup':{
         'hideCB.label':'Ne plus faire apparaître la fenêtre surgissante',
         'title':'Alertes d\'évènements',
-        'tpl.calendar':'Calendrier',
+        'tpl.calendar':'Agenda',
         'tpl.subject':'Sujet',
         'tpl.content':'Contenu',
         'tpl.leftTime':'Temps restant',
